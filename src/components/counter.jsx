@@ -334,6 +334,7 @@ export default Counter;
 //     count: 0,
 //   };
 //   handleIncrement = () => {
+// this.setState will update and merge also(if there is no property) of the state
 //     this.setState({ count: this.state.count + 1 }); // it rerender everytime when the button is clicked(ie increment the count value)
 //   };
 
